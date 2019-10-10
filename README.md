@@ -4,6 +4,11 @@ A child docker container of
 [ibmcom/db2](https://hub.docker.com/r/ibmcom/db2)
 that includes a `/var/custom` directory to customize the IBM Db2 deployment
 
+## Related artifacts
+
+1. [DockerHub](https://hub.docker.com/r/senzing/ibm-db2)
+1. [Helm Chart](https://github.com/Senzing/charts/tree/master/charts/senzing-ibm-db2)
+
 ## License (Terms and Conditions)
 
 Because this image is based on `FROM ibmcom/db2`, the IBM terms and conditions must be agreed to.
