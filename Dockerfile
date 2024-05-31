@@ -4,11 +4,13 @@ FROM ${BASE_IMAGE}
 ENV REFRESHED_AT=2022-10-27
 
 LABEL Name="senzing/ibm-db2" \
-      Maintainer="support@senzing.com" \
-      Version="1.0.3"
+  Maintainer="support@senzing.com" \
+  Version="1.0.3"
 
 HEALTHCHECK CMD ["/app/healthcheck.sh"]
 
 # Copy files from repository.
 
 COPY ./rootfs /
+
+USER 1001
