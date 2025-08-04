@@ -1,5 +1,9 @@
 # docker-ibm-db2
 
+## :no_entry: Deprecated
+
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 If you are beginning your journey with [Senzing],
 please start with [Senzing Quick Start guides].
 
